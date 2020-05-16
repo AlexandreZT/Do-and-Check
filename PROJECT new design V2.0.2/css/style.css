@@ -1,0 +1,64 @@
+#managements {
+  /*display: inline-block;*/
+  text-align: center;
+  margin-top: 30px;
+  font-size: 16px;
+}
+
+.positive { color:#4CAF50;}
+.negative { color: #B22222; }
+.neutre { color : #0000CD;}
+
+#notifications {
+  /*display: inline-block;*/
+  /*margin-right: 100px;*/
+  text-align: center;
+  margin-top: 30px;
+  font-size: 16px;
+}
+
+#todolists {
+  /*display: inline-block;*/
+  text-align: center;
+  margin-top: 10px;
+  font-size: 24px;
+  /*margin-left: 200px;*/
+}
+
+h1 { text-align: center; }
+
+body {
+    background-image: url("../img/wallpaper.jpg");
+    background-size: 100%;
+    color: white; /* couleur de toutes les polices */
+}
+  
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+  
+li {
+    float: left;
+}
+  
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+  
+li a:hover:not(.active) {
+    background-color: #111;
+}
+  
+.active {
+    background-color: #4CAF50;
+}.management{
+  text-align: center;
+}
